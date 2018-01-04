@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <ServerId value = "101"/>
+  <ServerIp value="10.0.2.15" />
+  <ServerPort value = "61101" />	
+  <MaxClient value = "2000" />
+
+
+  <ScribeLog ip="10.0.2.15" port="1463"/>
+  <webserver ip="localhost" port="80" www="tankweb"/>
+  <ZMQRouter ip="localhost" port="5559"/>
+
+  <!--Game id="1" name="car">
+	<Room id="1" name="car room 1" userNumLimit="300"/>
+  	<Room id="2" name="car room 2" userNumLimit="300"/>
+	<Room id="3" name="car room 3" userNumLimit="300"/>
+  	<Room id="4" name="car room 4" userNumLimit="300"/>
+	<Room id="5" name="car room 5" userNumLimit="300"/>
+	<Room id="6" name="car room 6" userNumLimit="300"/>
+  </Game-->
+
+ <Game id="2" name="tank">
+	<Room id="100" name="tank room 10" userNumLimit="300"/>
+  </Game>
+
+ </config>
